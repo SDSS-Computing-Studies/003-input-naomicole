@@ -13,3 +13,22 @@
 #
 # Test output
 # input sides of 5 and 7 should give hypotenuse of 8.60232526704
+
+import math
+
+print("input length of a")
+a= input()
+
+print("input length of b")
+b=input()
+
+a=float(a)
+b=float(b)
+
+c= (a**2)+(b**2)
+answer= math.sqrt(c)
+
+answer=float(answer)
+
+print("The length of the hypotenuse is" ,end=" ")
+print(answer)

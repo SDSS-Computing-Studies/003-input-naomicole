@@ -4,8 +4,11 @@
 #
 # Inputs:
 # name
+name=input("Enter your name")
 # email
+email=input("Enter your email")
 #
 # Sample output:
+print("Your name is "+name+", and your email is "+email+".")
 # Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 
